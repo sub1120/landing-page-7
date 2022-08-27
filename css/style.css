@@ -17,6 +17,11 @@
     align-items: center;
 }
 
+.menu img{
+    display: none;
+    width: 30px;
+}
+
 .logo img{
     width: 100px;
 }
@@ -206,6 +211,10 @@
         width: 100px;
     }
 
+    .menu img{
+        display: block;
+    }
+
     .nav{
         display: none;
     }
@@ -216,8 +225,8 @@
         height: 100%;
     }
 
-    .actions img{
-        width: 120px;
+    .actions{
+        display: none;
     }
 
     .heading1 h2{
